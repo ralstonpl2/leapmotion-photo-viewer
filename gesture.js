@@ -34,9 +34,9 @@ function concatJointPosition(id, position){
 
 
 
-var output = document.getElementById("box");
-var frameString = "", handString = "", fingerString = "";
-var hand, finger;
+//var output = document.getElementById("output");
+//var frameString = "", handString = "", fingerString = "";
+//var hand, finger;
 
 
 var options = { enableGestures: true };
