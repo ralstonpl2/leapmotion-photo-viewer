@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<script src="https://js.leapmotion.com/leap-0.6.4.min.js"></script>
+
+<script src="lib/leap-plugins-0.1.11.js"></script>
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/aframe/0.2.0/aframe.min.js"></script>
+
+<script src="https://rawgit.com/ngokevin/aframe-text-component/master/dist/aframe-text-component.min.js"></script>
+
+
+<script type="text/javascript" src="gesture.js"></script>
+
+</head>
+
+<body>
+
+
+<a-scene>
+  <a-entity  position="0 1.8 5" rotation="0 0 0">
+    <a-entity camera look-controls wasd-controls></a-entity>
+  </a-entity>
+
+   <a-entity text="text: Let A Hundred Flowers Blossom" position="-5 4 0"></a-entity>
+
+  
+  <!--<a-image src="images/YangshouWoman.jpg" position="-1 0 0"></a-image>
+  <a-image src="images/AncientXian.jpg" position="0 0 0"></a-image>
+  <a-image src="images/YunnanBlindMan.jpg" position="1 0 0"></a-image> -->
+
+  <a-sky color="tomato"></a-sky>
+
+  <!-- <a-entity id="river" visible="false" geometry="primitive: plane" material="color: blue"
+            position="-10 0 0" width="1" height="1"  sound="src: 1-09 I Love Kanye.mp3; autoplay: true"></a-entity> -->
+
+</a-scene>
+
+
+
+<div id="output"></div>
+
+</body>
+
+
+</html>
+
+
